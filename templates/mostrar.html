@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Persona</title>
+</head>
+<body>
+    <h1>mostrar personas</h1>
+    {% for datos1 in datos1 %}
+
+    <h3>{{datos1}}</h3>
+
+    {% endfor %}
+    <div>
+        <button>
+        <a href="{{url_for('estudiante')}}">Ir a estudiantes</a>  
+        </button>   
+    </div>
+</body>
+</html>
